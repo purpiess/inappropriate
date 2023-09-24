@@ -1,6 +1,6 @@
 ---------------------------------------|
 while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui do wait() end
--- Constraints: -----------------------|a
+-- Constraints: -----------------------|
 local ver = "1.9.9f"
 local cordCode = "https://discord.gg/JyzvQ6zdfg"
 ---------------------------------------|
@@ -6930,7 +6930,7 @@ function useCommand.facefuckanim()
 				else ff2 = true
 					opx("-","Facefucking/faceraping enabled")
 					while ff2 do
-						cmdlp.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,math.rad(180),0)* CFrame.new(0.4,-1.6,0.4)
+						cmdlp.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,math.rad(180),0)* CFrame.new(0.4,-3,0.4)
 						cmdlp.Character.HumanoidRootPart.AssemblyLinearVelocity = Vector3.new()
 						wait()
 					end
