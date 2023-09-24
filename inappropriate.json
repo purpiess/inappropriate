@@ -6930,7 +6930,7 @@ function useCommand.facefuckanim()
 				else ff2 = true
 					opx("-","Facefucking/faceraping enabled")
 					while ff2 do
-						cmdlp.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,math.rad(180),0)* CFrame.new(0.4,-4,0.4)
+						cmdlp.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,math.rad(180),0)* CFrame.new(0.4,-2.5,0.4)
 						cmdlp.Character.HumanoidRootPart.AssemblyLinearVelocity = Vector3.new()
 						wait()
 					end
