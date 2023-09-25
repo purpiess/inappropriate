@@ -6967,7 +6967,7 @@ function useCommand.piggyback()
 					opx("-","Riding/piggybacking enabled")
 					while pb do
 						cmdlp.Character.Humanoid.Sit = true
-						cmdlp.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame * CFrame.Angles(0, math.rad(0), 0) * CFrame.new(0,10,0.4).
+						cmdlp.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame * CFrame.Angles(0, math.rad(0), 0) * CFrame.new(0,0,0.4).
 						cmdlp.Character.HumanoidRootPart.AssemblyLinearVelocity = Vector3.new()
 						game:GetService("RunService").RenderStepped:Wait()
 					end
