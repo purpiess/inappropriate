@@ -6993,7 +6993,7 @@ function useCommand.fuck()
 		target = findplr(arguments[2])
 		if target then
 			flwnum = -1
-			bang:AdjustSpeed(100)
+			bang:AdjustSpeed(1)
 			if target.Character and target.Character:FindFirstChild('Humanoid') then
 				if Bang == true then
 					Follow = false
